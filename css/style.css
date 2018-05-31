@@ -1,0 +1,22 @@
+.view {
+    background: url("../slider_image_home@2x.png")no-repeat center center;
+    background-size: cover;
+}
+.logo {
+    background: url("../logo_slider_home@2x.png")no-repeat center center;
+    background-size: cover;
+    width: 50%;
+}
+.navbar {
+    background-color: transparent;
+}
+
+.top-nav-collapse {
+    background-color: #4285F4;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #4285F4;
+    }
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JavaScript - read JSON from URL</title>
+   
+</head>
+
+<body>
+    <div class="mypanel"></div>
+
+    <script>
+    getJSON('https://api.myglamapp.pl/api/categories?language=EN', function(data) {
+        
+        var text = `Date: ${data.message}<br>
+                    Time: ${data.success}<br>
+                  `
+                    
+        
+        $(".mypanel").html(text);
+    });
+    </script>
+    
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+</body>
+</html>

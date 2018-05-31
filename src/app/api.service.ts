@@ -8,7 +8,8 @@ export class ApiService {
 
   getWeather(city, country) {
     // tslint:disable-next-line:max-line-length
-    return this.http.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + ',' + country + '&appid=17b1c8913b68544be214a35bf9a3b227');
+    return this.http.get('https://api.myglamapp.pl/api/categories?language=EN');
+    //return this.http.get(
   }
 
 }
